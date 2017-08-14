@@ -43,7 +43,7 @@ ts-node
 
 dev
 docs
-lib
+libit
 test
 tmp
 
@@ -54,4 +54,4 @@ gulpfile.js.map
 .DS_Store
 src/client/app/shared/config/env.config.js
 src/client/app/shared/config/env.config.js.map
-node_modules
+node_modules/*
