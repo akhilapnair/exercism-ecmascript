@@ -1,19 +1,14 @@
-class Leap {
-  isLeap() {
-     if (years/400){
-      result = true
+class Year {
+  constructor(year){
+    this.year = year;
+  }
+  isLeap(){
+    if(this.year %4 == 0 && !(this.year%100==0)|| this.year%400 == 0) {
+      return true;
     }
-    else if(years/100){
-      result = false
+    else {
+      return false;
     }
-    else if(years/4){
-      result= true
-    }
-    else{
-      result= false
-    }
-    return result
   }
 }
-
-export default Leap;
+export default Year;
