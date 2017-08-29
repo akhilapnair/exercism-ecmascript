@@ -5,11 +5,11 @@ describe('Triangle', () => {
     expect(new Triangle(1).rows).toEqual([[1]]);
   });
 
-  xtest('with two rows', () => {
+  test('with two rows', () => {
     expect(new Triangle(2).rows).toEqual([[1], [1, 1]]);
   });
 
-  xtest('with three rows', () => {
+  test('with three rows', () => {
     expect(new Triangle(3).rows).toEqual([[1], [1, 1], [1, 2, 1]]);
   });
 
